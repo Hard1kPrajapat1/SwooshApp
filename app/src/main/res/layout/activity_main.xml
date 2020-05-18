@@ -67,6 +67,7 @@
         android:fontFamily="@font/montserrat"
         android:singleLine="false"
         android:text="@string/find_a_team_in_your_city_and_dominat_the_league"
+        android:gravity="center"
         android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
