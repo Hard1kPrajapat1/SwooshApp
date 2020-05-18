@@ -1,8 +1,9 @@
-package com.example.swooshapp
+package com.example.swooshapp.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.swooshapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class WelcomeActivity : AppCompatActivity() {

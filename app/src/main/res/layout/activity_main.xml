@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeActivity">
+    tools:context=".Controller.WelcomeActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -21,7 +21,7 @@
         android:contentDescription="@string/welcome_background" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logo"
         android:layout_width="88dp"
         android:layout_height="29dp"
         android:layout_marginTop="24dp"
@@ -43,7 +43,7 @@
         android:textSize="46sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <TextView
         android:id="@+id/textView2"
